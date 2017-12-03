@@ -151,15 +151,15 @@ h3 {
   padding: 70px 0 70px;
   color: #fff;
 }
-blockquote {
+#blockquote {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
   width: 580px;
-  margin: 0 auto;
+  margin: auto;
 }
-blockquote span {
+#blockquote span {
   font-weight: 600;
   display: block;
   font-style: normal;
@@ -296,6 +296,10 @@ footer p {
   }
   header nav ul li {
     font-size: 16px;
+  }
+  #blockquote {
+    font-size: 28px;
+    margin: auto;
   }
   #sidebar {
     width: 100%;
